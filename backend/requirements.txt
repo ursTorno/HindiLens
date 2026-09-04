@@ -1,0 +1,11 @@
+
+IndicTransToolkit
+transformers==4.57.1
+sentencepiece
+accelerate
+torch
+fastapi
+uvicorn
+python-multipart
+opencv-python
+pytesseract

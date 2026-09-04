@@ -1,0 +1,19 @@
+
+# Colab
+.config/
+sample_data/
+
+# Python
+__pycache__/
+*.pyc
+
+# Local/test files
+*.png
+*.jpg
+*.jpeg
+
+# Backup files
+*.zip
+
+# Test output
+backend/test_results.csv
