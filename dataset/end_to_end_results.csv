@@ -1,0 +1,8 @@
+image,hindi_ocr,english_translation,error
+dataset/multiple_lines/multiple_01.png,कृपया धीरे चलें सड़क पर सावधानी रखें यातायात नियमों का पालन करें,please slow down please be careful on the road follow traffic rules,
+dataset/slightly_blurry/blurry_01.png,गति सीमा 40,Speed limit of 40,
+dataset/lighting/lighting_01.png,धीरे चलें,Go slow,
+dataset/different_fonts/font_01.png,विद्यालय में आपका स्वागत है,Welcome to the School,
+dataset/mixed_hindi_english/mixed_01.png,गति सीमा 40,Speed limit of 40,
+dataset/difficult/difficult_01.png,कृपया वाहन यहाँ न रोके,Please do not stop the vehicle here.,
+dataset/clear_printed/clear_01.png,सावधान,beware,

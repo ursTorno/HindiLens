@@ -1,0 +1,8 @@
+condition,expected,ocr_output,assessment
+clear_printed,सावधान,सावधान,Correct
+different_fonts,विद्यालय में आपका स्वागत है,विद्यालय में आपका स्वागत है,Correct
+lighting,धीरे चलें,धीरे चलें,Correct
+slightly_blurry,गति सीमा 40,गति सीमा 40,Correct
+multiple_lines,कृपया धीरे चलें सड़क पर सावधानी रखें यातायात नियमों का पालन करें,कृपया धीरे चलें सड़क पर सावधानी रखें यातायात नियमों का पालन करें,Correct
+difficult,कृपया वाहन यहाँ न रोकें,कृपया वाहन यहाँ न रोके,Minor OCR error
+mixed_hindi_english,गति Speed सीमा Limit 40,गति सीमा 40,English words dropped
