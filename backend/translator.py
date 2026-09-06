@@ -9,10 +9,10 @@ DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 SRC_LANG = "hin_Deva"
 TGT_LANG = "eng_Latn"
 
-MODEL_NAME = "ai4bharat/indictrans2-indic-en-1B"
+MODEL_NAME = "ai4bharat/indictrans2-indic-en-dist-200M"
 
 
-print(f"Loading IndicTrans2 on {DEVICE}...")
+print(f"Loading IndicTrans2 200M on {DEVICE}...")
 
 tokenizer = AutoTokenizer.from_pretrained(
     MODEL_NAME,
@@ -27,7 +27,7 @@ model = AutoModelForSeq2SeqLM.from_pretrained(
 
 ip = IndicProcessor(inference=True)
 
-print("IndicTrans2 loaded successfully!")
+print("IndicTrans2 200M loaded successfully!")
 
 
 def translate_hindi(text):
@@ -58,7 +58,8 @@ def translate_hindi(text):
     with torch.inference_mode():
         generated_tokens = model.generate(
             **encodings,
-            num_beams=5,
+            num_beams=1,
+            do_sample=False,
             max_length=256,
             use_cache=False
         )
