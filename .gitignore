@@ -17,3 +17,7 @@ __pycache__/
 
 # Test output
 backend/test_results.csv
+
+# Backend test images
+!backend/test_images/
+!backend/test_images/*.png

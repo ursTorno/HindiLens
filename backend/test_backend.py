@@ -11,11 +11,11 @@ from backend.main import app
 client = TestClient(app)
 
 test_images = [
-    "hindi1.png",
-    "hindi2.png",
-    "hindi3.png",
-    "hindi4.png",
-    "hindi5.png",
+    "backend/test_images/hindi1.png",
+    "backend/test_images/hindi2.png",
+    "backend/test_images/hindi3.png",
+    "backend/test_images/hindi4.png",
+    "backend/test_images/hindi5.png",
 ]
 
 print("HindiLens Backend Test")
